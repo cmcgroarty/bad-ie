@@ -78,11 +78,10 @@ machineTl
 
 endCardTl.to('.end-card', 1, { opacity: 1 }, '1');
 
-/*
+
 var replay = document.querySelector('.replay');
 replay.addEventListener('click', function() {
   endCardTl.pause(0);
   headTl.pause(0);
   machineTl.play(0);
 });
-*/

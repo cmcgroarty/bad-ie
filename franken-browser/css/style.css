@@ -232,6 +232,7 @@ header .logo {
 }
 
 .button {
+  cursor: pointer;
   padding: 1em 2em;
   color: rgba(40, 50, 70, 1);
   font-weight: bold;
@@ -239,4 +240,9 @@ header .logo {
   text-transform: uppercase;
   text-decoration: none;
   background-color: #fff;
+}
+
+.button:hover {
+  text-decoration: none;
+  background-color: #c7daff;	
 }
